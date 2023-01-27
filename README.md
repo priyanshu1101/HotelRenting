@@ -1,19 +1,14 @@
 Hello Everyone!
-This project is based on hotel renting system.It support multiple sellers and multiple users.Every new user can register themself on the website and create there profile.Now having Login ID and password,they can log in and post there hotel to rent or rent one.Once logged in, a unique session is created which remains valid until the user log out.
 
-Seller side features:
-1.View profile
-2.Post property for renting with all the required details
-3.Once a property is added,seller can later delete or update the infomation added,if required.
-4.Logout functionality to invalidate the session to ensure security.
+This website is a hotel renting system that allows multiple sellers and buyers to register and create their profiles. The platform is built using Spring Framework, which is a popular Java-based framework for building enterprise-level applications. This allows for a robust and scalable structure for the website, as well as easy integration with other Java-based tools and technologies.
 
-Buyer side features:
-1.View profile
-2.Add posted hotels to there list.
-3.Remove already added hotels from there list.
-4.Logout functionality to invalidate the session to ensure security.
+Sellers can view their profile, post properties for renting with all the required details, and update or delete properties at any time. They also have the ability to log out, which invalidates their session for added security.
 
-Key Features: Added a search functionality under which if the searched keyword matches any field in the database then that data gets displayed.This feature is added both on the buyer and seller side.
+Buyers can also view their profile, add posted hotels to their list, remove already added hotels from their list, and log out when they are finished.
+
+We also added a search functionality, which allows users to search for specific keywords in the database. This feature is available to both buyers and sellers, and if the keyword matches any field in the database, the corresponding data will be displayed.
+
+For the database, we have used MySQL, which is a widely used and popular open-source relational database management system. This allows for efficient data storage and retrieval, as well as easy integration with the Spring Framework.
 
 
 How to Install:
